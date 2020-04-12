@@ -53,10 +53,12 @@ p{
 
 .rotate{
   transition: transform 1.5s;
+  -webkit-transition: transform 1.5s;
 }
 
 .rotate:hover{
   transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
 }
 
 li{
